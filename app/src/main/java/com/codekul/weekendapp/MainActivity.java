@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         LinearLayout.LayoutParams paramsBtn
                 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         Button btnOkay = new Button(this);
+        btnOkay.setLayoutParams(paramsBtn);
         btnOkay.setText("Okay");
         layoutRoot.addView(btnOkay);
     }

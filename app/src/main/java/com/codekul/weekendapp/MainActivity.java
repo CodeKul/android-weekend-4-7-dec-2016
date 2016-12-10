@@ -15,14 +15,14 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         LinearLayout.LayoutParams paramsRoot
-                = new LinearLayout.LayoutParams(300,300);
+                = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         LinearLayout layoutRoot = new LinearLayout(this);
         layoutRoot.setLayoutParams(paramsRoot);
         layoutRoot.setOrientation(LinearLayout.VERTICAL);
         setContentView(layoutRoot);
 
         LinearLayout.LayoutParams paramsBtn
-                = new LinearLayout.LayoutParams(300,150);
+                = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         Button btnOkay = new Button(this);
         btnOkay.setText("Okay");
         layoutRoot.addView(btnOkay);

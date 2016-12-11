@@ -7,8 +7,35 @@
     tools:context="com.codekul.uixml.MainActivity"
     android:orientation="vertical">
 
+   <TextView
+       android:id="@+id/textCodeKul"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="codekul"
+       android:textSize="30sp"
+       android:gravity="center"/>
+
    <Button
+       android:id="@+id/btnOkay"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="Okay"/>
+
+   <Button
+       android:id="@+id/btnReset"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Reset"/>
+
+   <Button
+       android:id="@+id/btnUpperCase"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Upper Case"/>
+
+   <Button
+       android:id="@+id/btnLowerCase"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Lower Case"/>
 </LinearLayout>

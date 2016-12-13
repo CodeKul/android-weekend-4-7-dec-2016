@@ -1,1 +1,1 @@
-include ':app', ':uixml', ':layouts'
+include ':app', ':uixml', ':layouts', ':rxandroiddemo'

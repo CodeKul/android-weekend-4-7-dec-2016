@@ -6,10 +6,12 @@ import android.util.Log;
 import android.widget.TextView;
 
 import rx.Observable;
+import rx.Observer;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
 import rx.functions.Action1;
+import rx.observables.AsyncOnSubscribe;
 import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Observable<String> readDb(){
+
         return Observable.create(subscriber -> {
             for(int i = 0 ; i < 1000 ; i++) {
                 subscriber.onNext(""+i);
@@ -40,4 +43,16 @@ public class MainActivity extends AppCompatActivity {
             subscriber.onCompleted();
         });
     }
+
+    Observable<String> my = Observable.create(new AsyncOnSubscribe<String, String>() {
+        @Override
+        protected String generateState() {
+            return null;
+        }
+
+        @Override
+        protected String next(String state, long requested, Observer<Observable<? extends String>> observer) {
+            return null;
+        }
+    });
 }

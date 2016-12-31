@@ -1,1 +1,1 @@
-include ':app', ':uixml', ':layouts', ':rxandroiddemo', ':interactivitycommunication'
+include ':app', ':uixml', ':layouts', ':rxandroiddemo', ':interactivitycommunication', ':compoundviews', ':customviews'

@@ -1,1 +1,1 @@
-include ':app', ':uixml', ':layouts', ':rxandroiddemo', ':interactivitycommunication', ':compoundviews', ':customviews', ':listview', ':animations'
+include ':app', ':uixml', ':layouts', ':rxandroiddemo', ':interactivitycommunication', ':compoundviews', ':customviews', ':listview', ':animations', ':activitylifecycle', ':savingstate', ':configurationchangesauto', ':configurationchangesown'

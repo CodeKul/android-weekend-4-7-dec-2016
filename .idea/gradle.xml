@@ -11,15 +11,19 @@
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/animations" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/assests" />
             <option value="$PROJECT_DIR$/compoundviews" />
             <option value="$PROJECT_DIR$/configurationchangesauto" />
             <option value="$PROJECT_DIR$/configurationchangesown" />
             <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/layouts" />
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/rxandroiddemo" />
             <option value="$PROJECT_DIR$/savingstate" />
+            <option value="$PROJECT_DIR$/simplevalueresources" />
+            <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/uixml" />
           </set>
         </option>

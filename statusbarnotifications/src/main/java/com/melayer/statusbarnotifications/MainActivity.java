@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 .setContentInfo(getResources().getString(R.string.notificationInfo))
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(contentIntent)
-                .setDefaults(Notification.DEFAULT_ALL);
+                .setDefaults(Notification.DEFAULT_ALL)
+                .addAction(R.mipmap.ic_launcher,"Act1",contentIntent);
 
         Notification notification = builder.build();
         notification.flags = Notification.FLAG_AUTO_CANCEL;

@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/rxandroiddemo" />
             <option value="$PROJECT_DIR$/savingstate" />
             <option value="$PROJECT_DIR$/simplevalueresources" />
+            <option value="$PROJECT_DIR$/statusbarnotifications" />
             <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/uixml" />
           </set>

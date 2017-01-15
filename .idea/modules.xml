@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/configurationchangesauto/configurationchangesauto.iml" filepath="$PROJECT_DIR$/configurationchangesauto/configurationchangesauto.iml" />
       <module fileurl="file://$PROJECT_DIR$/configurationchangesown/configurationchangesown.iml" filepath="$PROJECT_DIR$/configurationchangesown/configurationchangesown.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogs/dialogs.iml" filepath="$PROJECT_DIR$/dialogs/dialogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" filepath="$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" />
       <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />

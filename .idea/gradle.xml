@@ -21,11 +21,13 @@
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/layouts" />
             <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/prasadmodule" />
             <option value="$PROJECT_DIR$/rxandroiddemo" />
             <option value="$PROJECT_DIR$/savingstate" />
             <option value="$PROJECT_DIR$/simplevalueresources" />
             <option value="$PROJECT_DIR$/statusbarnotifications" />
             <option value="$PROJECT_DIR$/toast" />
+            <option value="$PROJECT_DIR$/uithread" />
             <option value="$PROJECT_DIR$/uixml" />
           </set>
         </option>

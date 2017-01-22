@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void rxAndroid() {
 
+        // show dialog
         Observable.<Integer>create(vij ->{
             for (int i = 0; i < 100; i++){
                 try {
@@ -122,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
         })      .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.newThread())
                 .doOnNext( i -> ((TextView)findViewById(R.id.textCounter)).setText(String.valueOf(i)))
-                .doOnComplete(() -> Log.i("@codekul", "On Completed "))
+                .doOnComplete(() -> Log.i("@codekul", "On Completed ")  /*dismiss dialog*/)
                 .subscribe();
     }
 }

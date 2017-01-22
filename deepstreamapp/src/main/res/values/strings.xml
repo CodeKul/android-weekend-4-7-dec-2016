@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DeepStreamApp</string>
+    <string name="edtWhatSay">What Say</string>
+    <string name="btnOkay">Okay</string>
+</resources>

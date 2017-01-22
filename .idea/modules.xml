@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/compoundviews/compoundviews.iml" filepath="$PROJECT_DIR$/compoundviews/compoundviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/configurationchangesauto/configurationchangesauto.iml" filepath="$PROJECT_DIR$/configurationchangesauto/configurationchangesauto.iml" />
       <module fileurl="file://$PROJECT_DIR$/configurationchangesown/configurationchangesown.iml" filepath="$PROJECT_DIR$/configurationchangesown/configurationchangesown.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentproviders/contentproviders.iml" filepath="$PROJECT_DIR$/contentproviders/contentproviders.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/deepstreamapp/deepstreamapp.iml" filepath="$PROJECT_DIR$/deepstreamapp/deepstreamapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/dialogs/dialogs.iml" filepath="$PROJECT_DIR$/dialogs/dialogs.iml" />

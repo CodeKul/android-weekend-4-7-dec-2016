@@ -21,6 +21,12 @@
         android:layout_height="wrap_content"
         android:text="@string/btnOkay"/>
 
+    <Button
+        android:id="@+id/btnOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOther"/>
+
     <TextView
         android:id="@+id/textInComing"
         android:layout_width="match_parent"

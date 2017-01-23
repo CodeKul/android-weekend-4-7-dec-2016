@@ -2,4 +2,5 @@
     <string name="app_name">DeepStreamApp</string>
     <string name="edtWhatSay">What Say</string>
     <string name="btnOkay">Okay</string>
+    <string name="btnOther">Other Mobile</string>
 </resources>

@@ -22,6 +22,8 @@
       <module fileurl="file://$PROJECT_DIR$/internalstorage/internalstorage.iml" filepath="$PROJECT_DIR$/internalstorage/internalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdesignstr/materialdesignstr.iml" filepath="$PROJECT_DIR$/materialdesignstr/materialdesignstr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navdrawer/navdrawer.iml" filepath="$PROJECT_DIR$/navdrawer/navdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/prasadmodule/prasadmodule.iml" filepath="$PROJECT_DIR$/prasadmodule/prasadmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" filepath="$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/savingstate/savingstate.iml" filepath="$PROJECT_DIR$/savingstate/savingstate.iml" />
@@ -30,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" filepath="$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" filepath="$PROJECT_DIR$/statusbarnotifications/statusbarnotifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swiper/swiper.iml" filepath="$PROJECT_DIR$/swiper/swiper.iml" />
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/uithread/uithread.iml" filepath="$PROJECT_DIR$/uithread/uithread.iml" />
       <module fileurl="file://$PROJECT_DIR$/uixml/uixml.iml" filepath="$PROJECT_DIR$/uixml/uixml.iml" />

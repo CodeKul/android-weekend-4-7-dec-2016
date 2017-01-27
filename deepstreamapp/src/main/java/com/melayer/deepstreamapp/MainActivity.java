@@ -13,6 +13,7 @@ import java.util.Objects;
 
 import io.deepstream.DeepstreamClient;
 import io.deepstream.EventListener;
+import io.deepstream.LoginResult;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,29 +23,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new Thread(()->{
+        //new Thread(()->{
             try {
-                ds = new DeepstreamClient( "192.168.2.5:6020" );
-                ds.login();
+                ds = new DeepstreamClient( "192.168.2.7:6020" );
+                //Log.i("@melayer","Login "+ds.login().loggedIn());
+                LoginResult res = ds.login();
+                Log.i("@melayer", "Login Event "+res.getErrorEvent());
                 ds.setRuntimeErrorHandler((topic, event, s) -> {
                     Log.i("@melayer", "Topic - "+topic +" Event - "+ event +" String - "+s);
                 });
                 ds.addConnectionChangeListener(connectionState -> {
                     Log.i("@melayer", "Connection state - "+connectionState);
                 });
+
                 ds.event.subscribe("fromWeb", this::inComingEvent);
                 ds.event.subscribe("otherMobile", this::inComingEvent);
             } catch (URISyntaxException e) {
                 e.printStackTrace();
             }
-        }).start();
+        //}).start();
 
         findViewById(R.id.btnOkay).setOnClickListener(this::okay);
         findViewById(R.id.btnOther).setOnClickListener(this::otherClick);
     }
 
     private void otherClick(View view) {
-        ds.event.emit("otherMobile",new Object[]{new Date().toString()});
+        new Thread(() -> ds.event.emit("otherMobile",new Object[]{new Date().toString()})).start();
     }
 
     private void inComingEvent(String s, Object... objects) {
@@ -54,6 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void okay(View view){
         Log.i("@melayer","okay clicked");
-        ds.event.emit("fromMobile",new Object[]{new Date().toString()});
+        new Thread(() -> ds.event.emit("fromMobile",new Object[]{new Date().toString()})).start();
     }
 }

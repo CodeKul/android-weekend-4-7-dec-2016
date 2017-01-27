@@ -1,0 +1,10 @@
+{
+  "color": "red",
+  "price": 45,
+  "isFrom": true,
+  "types": ["Belgium", "Kashmir", "India"],
+  "global": {
+    "cost": 14,
+    "bitter": true
+  }
+}

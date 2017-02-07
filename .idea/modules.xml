@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/materialdesignstr/materialdesignstr.iml" filepath="$PROJECT_DIR$/materialdesignstr/materialdesignstr.iml" />
       <module fileurl="file://$PROJECT_DIR$/navdrawer/navdrawer.iml" filepath="$PROJECT_DIR$/navdrawer/navdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/prasadmodule/prasadmodule.iml" filepath="$PROJECT_DIR$/prasadmodule/prasadmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" filepath="$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" filepath="$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/savingstate/savingstate.iml" filepath="$PROJECT_DIR$/savingstate/savingstate.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
@@ -37,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/uithread/uithread.iml" filepath="$PROJECT_DIR$/uithread/uithread.iml" />
       <module fileurl="file://$PROJECT_DIR$/uixml/uixml.iml" filepath="$PROJECT_DIR$/uixml/uixml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoapp/videoapp.iml" filepath="$PROJECT_DIR$/videoapp/videoapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/webcommunication/webcommunication.iml" filepath="$PROJECT_DIR$/webcommunication/webcommunication.iml" />
     </modules>
   </component>

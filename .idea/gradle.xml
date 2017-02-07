@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/materialdesignstr" />
             <option value="$PROJECT_DIR$/navdrawer" />
             <option value="$PROJECT_DIR$/prasadmodule" />
+            <option value="$PROJECT_DIR$/runtimepermissions" />
             <option value="$PROJECT_DIR$/rxandroiddemo" />
             <option value="$PROJECT_DIR$/savingstate" />
             <option value="$PROJECT_DIR$/service" />
@@ -42,6 +43,7 @@
             <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/uithread" />
             <option value="$PROJECT_DIR$/uixml" />
+            <option value="$PROJECT_DIR$/videoapp" />
             <option value="$PROJECT_DIR$/webcommunication" />
           </set>
         </option>

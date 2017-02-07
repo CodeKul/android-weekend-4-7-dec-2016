@@ -1,6 +1,5 @@
 package com.melayer.webcommunication;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,14 +25,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void login(View view) {
+        findViewById(R.id.progressBar).setVisibility(View.VISIBLE);
+        findViewById(R.id.btnLogin).setEnabled(false);
         Q.q(this).add(new StringRequest("https://digital-shelter-153912.firebaseio.com/me.json",this::onSuccess, this::onError));
     }
 
     private void onError(VolleyError volleyError) {
+        findViewById(R.id.btnLogin).setEnabled(true);
+        findViewById(R.id.progressBar).setVisibility(View.GONE);
         VolleyLog.wtf("Error is %s", volleyError.getMessage());
     }
 
     private void onSuccess(String s) {
+        findViewById(R.id.btnLogin).setEnabled(true);
+        findViewById(R.id.progressBar).setVisibility(View.GONE);
         Log.i("@codekul","Incoming "+s);
 
         User user = gson.fromJson(s, User.class);
